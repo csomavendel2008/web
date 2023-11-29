@@ -1,0 +1,27 @@
+.főnav{
+    overflow: hidden;
+    background-color: bisque;
+
+}
+.főnav a{
+    float: left;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+.főnav a:hover{
+    background-color: aqua;
+    color: azure;
+
+}
+főnav a:active{
+    background-color: cadetblue;
+    color: white;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

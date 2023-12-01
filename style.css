@@ -1,28 +1,29 @@
 .főnav{
     overflow: hidden;
-    background-color: bisque;
+    background-color: cadetblue;
 
 }
 .főnav a{
     float: left;
-    color: aquamarine;
+    color: cadetblue;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.5s;
 
 
 }
 .főnav a:hover{
-    background-color: aqua;
-    color: azure;
+    background-color: cadetblue;
+    color: cadetblue;
     font-weight: bold;
     font-style: italic;
 
 }
 főnav a:active{
     background-color: cadetblue;
-    color: white;
+    color: cadetblue;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

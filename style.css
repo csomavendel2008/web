@@ -1,29 +1,34 @@
-.főnav{
-    overflow: hidden;
-    background-color: cadetblue;
+.buttonmain1{
+    background-color: aquamarine;
+    width: 170px;
+    height: 60px; 
+    border: 0px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-duration: 0.8s;
+    padding: 0cm;
+    margin: 0px;
 
 }
-.főnav a{
-    float: left;
-    color: cadetblue;
-    text-align: center;
-    padding: 14px 17px;
-    text-decoration: none;
-    font-size: 17px;
-    transition: 0.5s;
+.buttonmain2:hover{
+    cursor: pointer;
+    background-color: dimgray;
+    color: azure;
+    padding: 0px;
+    margin: 0px;
 
 
 }
-.főnav a:hover{
-    background-color: cadetblue;
-    color: cadetblue;
-    font-weight: bold;
-    font-style: italic;
+.navmain {
+    background-color: brown;
 
 }
-főnav a:active{
-    background-color: cadetblue;
-    color: cadetblue;
+.activeindex{
+    background-color: chocolate;
+    color: bisque;
+    cursor: grab;
+    padding: 0px;
+    margin: 0px;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

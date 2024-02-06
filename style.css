@@ -53,6 +53,32 @@ body{
     float: left;
 }
 #evszak:hover{
-    width: 500px;
-    height: 700px;
+    width: 400px
+    
+    transition: 3s;
+    float: left;
+    margin: 40px
+
+
+}
+.evszakkepek{
+    border: orange solid 4px;
+    border-radius: 4px;
+    width: 400px;
+}
+#evszak:hover {
+    transform: scale(1.2, 1.2);
+}
+.evszakK{
+    text-align: center;
+    font-size: larger;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    color: white;
+    text-align: center;
 }

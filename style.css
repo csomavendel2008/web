@@ -54,12 +54,11 @@ body{
 }
 #evszak:hover{
     width: 400px
-    
     transition: 3s;
-    float: left;
-    margin: 40px
-
-
+    float:left;
+    margin: 40px;
+    
+  
 }
 .evszakkepek{
     border: orange solid 4px;

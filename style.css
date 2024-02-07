@@ -57,7 +57,8 @@ body{
 .evszakkepek{
     border: orange solid 4px;
     border-radius: 4px;
-    width: 300px;
+    width: 308px;
+    height: 208px;
     margin: auto;
 }
 .evszak:hover {

@@ -52,7 +52,7 @@ body{
     max-height: 500px;
     float: left;
 }
-#evszak:hover{
+#evszak {
     width: 400px;
     transition: 3s;
     float: left;

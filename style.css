@@ -51,14 +51,12 @@ body{
     max-width: 300px;
     max-height: 500px;
     float: left;
-}
-#evszak {
     margin: 15px;
-    
 }
+
 #evszak img{
     transition: 3s;
-float: left;
+    float: left;
 }
 .evszakkepek{
     border: orange solid 4px;

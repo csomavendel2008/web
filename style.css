@@ -39,20 +39,21 @@ body{
 }
 .footer1{
     text-align: center;
-    background-color: darkblue;
     padding: 5px;
-    color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    color: white;
 }
 
 .evszak{
-    width: 308px;
-    height: 208px;
-    margin: 15px;
-    clear: both;
-    transition: 3s;
+    width: 300px;
+    transition: 2s;
     float: left;
+    margin: 30px;
 }
 .evszakkepek{
     border: orange solid 4px;
@@ -67,13 +68,4 @@ body{
 .evszakK{
     text-align: center;
     font-size: larger;
-}
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: bisque;
-    color: white;
-    text-align: center;
 }

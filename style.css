@@ -53,10 +53,9 @@ body{
     float: left;
 }
 #evszak {
-    width: 300px;
     transition: 3s;
     float: left;
-    margin: 40px;
+    margin: 15px;
   
 }
 .evszakkepek{
@@ -66,7 +65,7 @@ body{
     margin: auto;
 }
 #evszak:hover {
-    transform: scale(1.2, 1.2);
+   scale: 1.1;
 }
 .evszakK{
     text-align: center;

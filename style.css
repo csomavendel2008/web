@@ -47,14 +47,8 @@ body{
 }
 
 #evszak{
-    border: 5px solid orange;
-    max-width: 300px;
-    max-height: 500px;
-    float: left;
     margin: 15px;
-}
-
-#evszak img{
+    clear: both;
     transition: 3s;
     float: left;
 }
@@ -64,8 +58,8 @@ body{
     width: 300px;
     margin: auto;
 }
-.evszakkepek:hover img{
-   scale: 1.1;
+#evszakkep:hover {
+   scale: 1.1, 1.1;
 }
 .evszakK{
     text-align: center;
@@ -79,7 +73,4 @@ footer {
     background-color: bisque;
     color: white;
     text-align: center;
-}
-#semmi{
-    clear: both;
 }

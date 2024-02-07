@@ -46,7 +46,7 @@ body{
 
 }
 
-#evszak{
+.evszak{
     margin: 15px;
     clear: both;
     transition: 3s;

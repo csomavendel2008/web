@@ -57,13 +57,13 @@ body{
     transition: 3s;
     float: left;
     margin: 40px;
-    
   
 }
 .evszakkepek{
     border: orange solid 4px;
     border-radius: 4px;
-    width: 400px;
+    width: 300px;
+    margin: auto;
 }
 #evszak:hover {
     transform: scale(1.2, 1.2);

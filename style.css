@@ -47,6 +47,8 @@ body{
 }
 
 .evszak{
+    width: 308px;
+    height: 208px;
     margin: 15px;
     clear: both;
     transition: 3s;

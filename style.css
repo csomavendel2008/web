@@ -53,10 +53,12 @@ body{
     float: left;
 }
 #evszak {
-    transition: 3s;
-    float: left;
     margin: 15px;
-  
+    
+}
+#evszak img{
+    transition: 3s;
+float: left;
 }
 .evszakkepek{
     border: orange solid 4px;

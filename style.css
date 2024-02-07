@@ -53,7 +53,7 @@ body{
     float: left;
 }
 #evszak:hover{
-    width: 400px
+    width: 400px;
     transition: 3s;
     float: left;
     margin: 40px;

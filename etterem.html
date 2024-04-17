@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitalált Étterem</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Add custom styles here */
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Különleges ízek világa</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#menu">Étlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Rólunk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kapcsolat</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="jumbotron">
+    <div class="container text-center">
+      <h1>Happy hambi</h1>
+      <p class="lead">Borsod legmenőbb étterme</p>
+      <a href="#menu" class="btn btn-primary btn-lg">Étlap</a>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Étlap</h2>
+      <!-- Menu items -->
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card" id="burger">
+            <img src="img/food1.jpg" class="card-img-top" alt="Étel 1">
+            <div class="card-body">
+              <h5 class="card-title">Hambi</h5>
+              <p class="card-text">Hambi buci,sertés-csirke,saláta,sajt.</p>
+              <img src="hambi,png.jpg" alt="" id="burger">
+              <a href="#" class="btn btn-primary">Rendelés</a>
+            </div>
+          </div>
+        </div>
+         <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card" >
+                <img src="img/food1.jpg" class="card-img-top" alt="Étel 2">
+                <div class="card-body">
+                  <h5 class="card-title">Hotdog</h5>
+                  <p class="card-text">kifli,virsli,háziszósz,pirított hagyma.</p>
+                  <img src="hotdog.png.jpg" alt="" id="hotdog">
+                  <a href="#" class="btn btn-primary">Rendelés</a>
+                </div>
+              </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-lg-4 mb-4" >
+                  <div class="card" >
+                    <img src="img/food1.jpg" class="card-img-top" alt="Ital">
+                    <div class="card-body">
+                      <h5 class="card-title">Limonádé</h5>
+                      <p class="card-text">víz.</p>
+                      <img src="lemon.png.jpg" alt="">
+                      <a href="#" class="btn btn-primary">Rendelés</a>
+                    </div>
+                  </div>
+                </div>
+            
+            
+            
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- About Section -->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Rólunk</h2>
+          <p class="lead">Gyorsak vagyunk és precízek.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="mt-5">
+    <h2 class="text-center">Kapcsolat</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Név</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">E-mail cím</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Üzenet</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Küldés</button>
+    </form>
+</section>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; Happy hambi.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and Font Awesome (for icons) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

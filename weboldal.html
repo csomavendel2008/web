@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chevrolet Kialakulása</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <header class="bg-secondary text-light text-center py-5" id="fejlec">
+        <h1>A Chevrolet</h1>
+        <h2>A Chevrolet amerikai gépkocsigyár, a General Motors tagja. </h2>
+        <br>
+    </header>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Főoldal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showText()">Története</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Modellek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+   
+
+
+    <div class="tartalom">
+        <div class="container ">
+            <div class="text-center my-5">
+                <img src="logo.jpg" alt="Chevrolet Logo" class="chevrolet-logo img-fluid logo1">
+                <h1 class="display-4">A Chevrolet Kialakulása</h1>
+                <p class="lead" >Fedezd fel a Chevrolet gazdag történelmét és ikonikus modelljeit.</p>
+            </div>
+            <section id="tortenelem" class="my-5">
+                <h2>Története</h2>
+                <img src="chevrolet.jpg" alt="Chevrolet" title="Chevrolet" class="img-fluid kep1 mb-3">
+                <p>A Chevrolet, vagy ahogy sokan ismerik, a Chevy, 1911-ben alakult meg. Az alapító, Louis Chevrolet és William C. Durant célja egy megfizethető, d e minőségi autó márka létrehozása volt. A vállalat az évek során számos ikonikus modellt hozott létre, amelyek közül sok ma is népszerű
+                    A második világháború után a Chevrolet folytatta növekedését, és az 1950-es években olyan klasszikus modellek jelentek meg, mint a Bel Air és az első Corvette, amely gyorsan az amerikai sportautók szimbólumává vált. Az 1960-as években a Chevrolet bemutatta a Camaro-t, amely közvetlen versenytársa lett a Ford Mustangnak. Az 1970-es és 1980-as években a Chevrolet folytatta az innovációt, új technológiákat és modelleket vezetve be.
+                </p>
+        
+            </section>
+            <section id="modellek" class="my-5">
+                <h2>Modellek</h2>
+                <hr>
+                <div class="container mt-5">
+                    <h1 class="mb-4">Chevrolet Modellek</h1>
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Modell</th>
+                                <th scope="col">Típus</th>
+                                <th scope="col">Gyártási Év</th>
+                                <th scope="col">Motor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chevrolet Spark</td>
+                                <td>Kisautó</td>
+                                <td>2020</td>
+                                <td>1.4L I4</td>
+                            </tr>
+                            <tr>
+                                <td>Chevrolet Malibu</td>
+                                <td>Szedán</td>
+                                <td>2021</td>
+                                <td>1.5L I4 Turbo</td>
+                            </tr>
+                            <tr>
+                                <td>Chevrolet Camaro</td>
+                                <td>Sportautó</td>
+                                <td>2022</td>
+                                <td>6.2L V8</td>
+                            </tr>
+                            <tr>
+                                <td>Chevrolet Equinox</td>
+                                <td>Kompakt SUV</td>
+                                <td>2021</td>
+                                <td>1.5L I4 Turbo</td>
+                            </tr>
+                            <tr>
+                                <td>Chevrolet Silverado</td>
+                                <td>Pick-up</td>
+                                <td>2021</td>
+                                <td>4.3L V6</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+                  
+            </section>
+            <section id="kontakt" class="my-5">
+                <h2>Kontakt</h2>
+                <p class="bg-light bg-secondary">Ha van kérdésed,írj</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Név</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Üzenet</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Küldés</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Chevrolet Történelem. Minden jog fenntartva.</p>
+            <p>Kövess engem: 
+              
+                <a href="https://www.instagram.com/vendeel28">Instagram</a>
+            </p>
+        </div>
+    </footer>
+        <script>
+        function showText() {
+            document.getElementById('main-text').style.display = 'block';
+        }
+    </script>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+</body>
+</html>
